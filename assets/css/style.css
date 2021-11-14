@@ -37,6 +37,8 @@ html {
     margin-top: 15px;
     border: none;
     font-size: 15px;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .btn:hover { cursor: pointer;
@@ -117,7 +119,7 @@ display: none;
     /* begin slider */
 
 #slider {
-    background: url('/assets/img/Slider1/ny.jpg') top center/ cover no-repeat ;
+    background: url('../img/Slider1/ny.jpg') top center/ cover no-repeat ;
     position: relative;
     padding-top: 50%;
     margin-top: 46px;
@@ -140,6 +142,7 @@ display: none;
 #slider .text-desc { 
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 /* begin content */
   
